@@ -120,9 +120,9 @@ while True:
 
         case "7":
              print(__doc__)
-            break
+             break
 
       
         case _:
+             print("Invalid choice, please try again.")
 
-            print("Invalid choice, please try again.")
