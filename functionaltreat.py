@@ -1,3 +1,6 @@
+"""
+Thank you for using the Data Analyzer and Transformer Program. Goodbye!
+"""
 data = []
 def summary(**kwargs):
     """Print summary using **kwargs"""
@@ -116,9 +119,10 @@ while True:
                 )
 
         case "7":
-            print("Thank you for using the Data Analyzer and Transformer Program. Goodbye!")
+             print(__doc__)
             break
 
       
         case _:
+
             print("Invalid choice, please try again.")
