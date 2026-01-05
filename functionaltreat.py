@@ -3,7 +3,6 @@ Thank you for using the Data Analyzer and Transformer Program. Goodbye!
 """
 data = []
 def summary(**kwargs):
-    """Print summary using **kwargs"""
     for key, value in kwargs.items():
         print(f"- {key}: {value}")
 
@@ -125,4 +124,5 @@ while True:
       
         case _:
              print("Invalid choice, please try again.")
+
 
